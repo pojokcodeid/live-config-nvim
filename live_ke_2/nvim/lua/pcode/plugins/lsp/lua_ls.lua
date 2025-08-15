@@ -1,11 +1,11 @@
 return {
   settings = {
     Lua = {
-      format={
-        enable= false,
+      format = {
+        enable = false,
       },
-      dignostics ={
-        globals = { "vim", "spec"},
+      diagnostics = {
+        globals = { "vim", "spec" },
       },
       runtime = {
         version = "LuaJIT",
@@ -28,6 +28,6 @@ return {
       telemetry = {
         enable = false,
       },
-    }
-  }
+    },
+  },
 }
